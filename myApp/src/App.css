@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@layer components{
+  .sites{
+    @apply relative w-[100%] h-[fit-content] m-auto p-[0] bg-transparent
+    flex flex-col align-middle justify-center text-center 
+  }
+  .links{
+    @apply text-xl text-violet-800 underline underline-offset-4
+  }
+  .data{
+    @apply text-xl text-black mt-[0%]
+  }
+  .textbox{
+    @apply relative w-[100%] h-[fit-content] m-auto p-[0] bg-transparent
+    flex flex-col align-middle justify-center text-center
+  }
+  .boxes{
+    @apply relative w-[100%] h-[100%] m-auto p-[0] bg-transparent
+    flex flex-col align-middle justify-evenly text-center
+  }
+  .box{
+    @apply relative w-[15em] h-[4em] m-auto p-[0] bg-transparent
+    flex flex-row align-middle justify-evenly text-center
+  }
+  .dots{
+    @apply relative w-[2em] h-[2em] m-auto p-[0] bg-black rounded-full
+  }
+  .load{
+    @apply text-2xl text-black
+  }
+}
+h1, p, input, button, a{
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+@keyframes value {
+  from, to{transform: translateY(0%);}
+  25%{transform: translateY(-50%);}
+  50%{transform: translateY(50%);}
+}
+.dots:nth-child(1){
+  animation: value 2s ease-in-out infinite;
+}
+.dots:nth-child(2){
+  animation: value 4s ease-in-out infinite;
+}
+.dots:nth-child(3){
+  animation: value 6s ease-in-out infinite;
+}
