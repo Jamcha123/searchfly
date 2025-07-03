@@ -9,4 +9,4 @@ github: https://github.com/Jamcha123/searchly
 
 backend: https://search-tu6dy325kq-uc.a.run.app?query=<search something>
 
-hope you enjoj
+hope you enjoy
