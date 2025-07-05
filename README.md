@@ -1,5 +1,5 @@
-# searchly
-searchly uses openai and google search engine api to summarize different search results into one summary
+# searchfly
+searchfly uses openai and google search engine api to summarize different search results into one summary
 
 Enter a subject e.g programming then it searches the web and uses the o4 model too summarize it
 
