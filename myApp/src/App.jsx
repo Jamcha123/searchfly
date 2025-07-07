@@ -7,7 +7,7 @@ import * as THREE from 'three'
 
 function AddNavbar1(){
   return(
-    <nav className="relative w-[35%] h-[100vh] overflow-y-scroll m-auto p-[0] z-[1] flex flex-col align-middle justify-center text-center bg-gray-200 ">
+    <nav className="relative w-[35%] h-[100vh] overflow-y-scroll m-auto p-[0] z-[300] flex flex-col align-middle justify-center text-center bg-gray-200 ">
       <ul className="relative w-[100%] h-[100%] m-auto p-[0] bg-transparent flex flex-col align-middle justify-center text-center ">
         <div className="relative w-[100%] h-[10%] m-auto p-[0] bg-transparent flex flex-col align-middle text-center justify-center ">
           <h1 className="text-2xl text-black">Searched Websites</h1>
@@ -102,8 +102,8 @@ export default function App(){
   return(
     <div className="relative w-[100%] h-[100vh] m-auto p-[0] flex flex-row align-middle justify-center text-center ">
       <AddNavbar1></AddNavbar1>
-      <div className="relative w-[65%] h-[100vh] m-auto mt-[2%] p-[0] flex flex-col align-middle justify-center ">
-        <div id="text" className="relative w-[100%] overflow-y-scroll h-[50%] m-auto p-[0] text-center ">
+      <div className="relative w-[65%] h-[100vh] m-auto mt-[2%] p-[0] z-[100] flex flex-col align-middle justify-center ">
+        <div id="text" className="relative w-[100%] overflow-y-scroll h-[50%] m-auto p-[0] text-center z-[300] ">
 
         </div>
         <div className="relative w-[100%] h-[25%] m-auto p-[0] flex flex-col align-middle justify-center text-center ">
@@ -111,16 +111,20 @@ export default function App(){
             <div className="relative w-[100%] h-[99%] z-[2] m-auto p-[0] flex flex-row align-middle justify-center text-center bg-transparent rounded-none ">
               <input type="text" required placeholder="enter a search query " id="search" className="relative w-[75%] h-[100%] m-auto p-[0] bg-transparent text-center text-2xl text-black "  />
               <div className="relative w-[25%] h-[100%] m-auto p-[0] bg-transparent flex flex-col align-middle text-center justify-center border-black border-[2px] ">
-                <motion.input initial={{scale: 1}} whileHover={{scale: 1.12}} whileTap={{scale: 0.9}} transition={{type: "spring", duration: 1}} type="submit" className="relative w-[100%] h-[100%] m-auto p-[0] bg-gray-100 rounded-none cursor-pointer  " />
+                <motion.input initial={{scale: 1}} whileHover={{scale: 1.12}} whileTap={{scale: 0.9}} transition={{type: "spring", duration: 1}} type="submit" className="relative w-[100%] h-[100%] m-auto p-[0] bg-gray-100 rounded-none cursor-pointer z-[400]  " />
               </div>
             </div>
           </form>
           <div className="relative W-[100%] h-[45%] m-auto p-[0] bg-transparent flex flex-row align-middle justify-center text-center ">
-
+            <ins className="adsbygoogle"
+                  style={{display: "inline-block", width: 720 + "px", height: 100 + "px"}}
+                  data-ad-client="ca-pub-7278175914211886"
+                  data-ad-slot="9997163496">
+              </ins>
           </div>
         </div>
       </div>
-      <div className="fixed w-[100%] h-[100%] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] m-auto p-[0] flex flex-row align-middle justify-center text-center z-[200] ">
+      <div className="fixed w-[100%] h-[100%] top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] m-auto p-[0] hidden flex-row align-middle justify-center text-center z-[-1] ">
         <div className="w-[35%] h-[100%] m-auto p-[0] flex flex-col align-middle justify-center text-center relative ">
 
         </div>
@@ -133,11 +137,6 @@ export default function App(){
 
             </div>
             <div className="relative w-[100%] h-[45%] m-auto p-[0] flex flex-row align-middle justify-center text-center ">
-                <ins className="adsbygoogle"
-                    style={{display: "inline-block", width: 720 + "px", height: 100 + "px"}}
-                    data-ad-client="ca-pub-7278175914211886"
-                    data-ad-slot="9997163496">
-                </ins>
             </div>
           </div>
         </div>
