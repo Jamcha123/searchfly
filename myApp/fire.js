@@ -5,12 +5,12 @@ import { getFirestore } from 'firebase/firestore'
 
 const config = {
     apiKey: "",
-  authDomain: "searchly-97fb1.firebaseapp.com",
-  projectId: "searchly-97fb1",
-  storageBucket: "searchly-97fb1.firebasestorage.app",
-  messagingSenderId: "608430859369",
-  appId: "1:608430859369:web:84703586885232cc5daef8",
-  measurementId: "G-HCT3NL7VC6"
+    authDomain: "searchly-97fb1.firebaseapp.com",
+    projectId: "searchly-97fb1",
+    storageBucket: "searchly-97fb1.firebasestorage.app",
+    messagingSenderId: "608430859369",
+    appId: "1:608430859369:web:84703586885232cc5daef8",
+    measurementId: "G-HCT3NL7VC6"
 }
 
 const app = initializeApp(config)
