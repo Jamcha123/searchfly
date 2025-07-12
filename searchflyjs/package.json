@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0",
+    "puppeteer": "^24.12.1"
+  },
+  "name": "searchflyjs",
+  "description": "clear",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamcha123/searchfly.git"
+  },
+  "keywords": [
+    "openai",
+    "google",
+    "searching",
+    "research",
+    "data",
+    "science",
+    "summaries"
+  ],
+  "author": "jamcha123",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jamcha123/searchfly/issues"
+  },
+  "homepage": "https://github.com/Jamcha123/searchfly#readme"
+}
