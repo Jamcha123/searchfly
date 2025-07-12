@@ -1,12 +1,24 @@
-# searchfly
-searchfly uses openai and google search engine api to summarize different search results into one summary
+#searchflyjs
 
-Enter a subject e.g programming then it searches the web and uses the o4 model too summarize it
+searchflyjs is an npm package for searchfly.
 
-web page: https://searchly-97fb1.firebaseapp.com
+searchfly allows you to search and summarize topics like programming or hacking and puts the data into data.txt and the links into links.json
 
-github: https://github.com/Jamcha123/searchly
+web app: https://searchfly.org
 
-backend: https://search-tu6dy325kq-uc.a.run.app?query=<search something>
+github repo: https://github.com/Jamcha123/searchfly
 
-hope you enjoy
+npm package: https://www.npmjs.com/package/searchflyjs
+
+initialization:
+
+1. npm install searchflyjs
+
+2. import {scraper} from 'searchflyjs' //into an index.js file
+
+3. console.log(await scraper(<search_query>))
+
+4. and run node .
+You will get a data.txt file that stores the summaries. Then you get a links.json file that stores the links.
+
+hope you enjoy.
